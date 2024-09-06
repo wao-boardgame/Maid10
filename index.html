@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイマーアプリ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="timer" id="timer">30</div>
+        <span id="seconds-label">秒</span>
+        <input type="text" id="timeInput" placeholder="秒数を入力">
+        <button id="startPauseButton">スタート</button>
+        <button id="resetButton">リセット</button>
+        <div class="instructions">
+            <h2>使い方と注意点</h2>
+            <p>1. タイマーに設定する秒数を入力し、「スタート」ボタンを押してカウントダウンを開始します。</p>
+            <p>2. カウントダウン中は、タイマーの秒数を変更することはできません。</p>
+            <p>3. 「リセット」ボタンを押すとタイマーがリセットされ、再びカウントダウンが開始されます。</p>
+            <p>4. タイマーが0になると、表示が「時間切れ」に変わり、赤色で点滅します。</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
